@@ -1,4 +1,5 @@
 import { Component } from 'react'
+import './MenuRutas.css'
 
 export default class   extends Component {
   render() {
@@ -13,6 +14,9 @@ export default class   extends Component {
                 </li>
                 <li>
                     <a href="/musica">Música</a>
+                </li>
+                <li>
+                    <a href="/form">Formulario</a>
                 </li>
             </ul>
         </div>
